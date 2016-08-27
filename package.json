@@ -1,0 +1,22 @@
+{
+  "name": "webpack-playground",
+  "version": "1.0.0",
+  "description": "starting with survivejs.com to learn the basics of webpack, with the intention of moving into a react environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birksy89/Webpack-Playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birksy89/Webpack-Playground/issues"
+  },
+  "homepage": "https://github.com/birksy89/Webpack-Playground#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
