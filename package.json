@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/birksy89/Webpack-Playground#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^2.22.0",
     "webpack": "^1.13.2"
   }
 }
