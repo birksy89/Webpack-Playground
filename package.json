@@ -4,7 +4,7 @@
   "description": "starting with survivejs.com to learn the basics of webpack, with the intention of moving into a react environment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "build": "webpack"
   },
   "repository": {
     "type": "git",
