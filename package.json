@@ -4,7 +4,7 @@
   "description": "starting with survivejs.com to learn the basics of webpack, with the intention of moving into a react environment",
   "main": "index.js",
   "scripts": {
-   "build": "webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/birksy89/Webpack-Playground#readme",
   "devDependencies": {
     "html-webpack-plugin": "^2.22.0",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-merge": "^0.14.1"
   }
 }
