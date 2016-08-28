@@ -39,7 +39,8 @@ switch (process.env.npm_lifecycle_event) {
         config = merge(
             common,
             parts.minify(),
-            parts.setupCSS(PATHS.app)
+            //parts.setupCSS(PATHS.app)
+            parts.extractCSS(PATHS.app)
         );
         break;
     default:
