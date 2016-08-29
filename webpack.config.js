@@ -25,7 +25,9 @@ const common = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack demo'
+            template: __dirname + '/app/index.html',
+            filename: 'index.html',
+            inject: 'body'
         })
     ]
 };
