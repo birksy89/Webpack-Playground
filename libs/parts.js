@@ -86,3 +86,14 @@ exports.minify = function() {
     ]
   };
 }
+
+exports.babelReact = function(){
+  return
+  {
+    module: {
+    loaders: [
+      {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
+    ]
+  }
+  }
+}

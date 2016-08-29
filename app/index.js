@@ -1,8 +1,14 @@
+require('./main.css');
 var component = require('./component');
 
-require('./main.css');
-require('react');
+
+
+
+var component = require('./components/hello.jsx');
+
+
 
 
 
 document.body.appendChild(component());
+ 

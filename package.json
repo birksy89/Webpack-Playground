@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/birksy89/Webpack-Playground#readme",
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.11.1",
     "css-loader": "^0.24.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.22.0",
